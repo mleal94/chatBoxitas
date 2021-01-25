@@ -1,0 +1,34 @@
+{
+  "name": "boxitas-proyect-server-chat",
+  "version": "1.0.0",
+  "description": "Boxitas,Chat,Node,SocketIO,Server",
+  "main": "server.js",
+  "scripts": {
+    "test": "start",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mleal94/boxitas-chat.git"
+  },
+  "keywords": [
+    "boxitas",
+    "chat",
+    "node",
+    "socketio",
+    "server"
+  ],
+  "author": "Mauricio Leal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mleal94/boxitas-chat/issues"
+  },
+  "homepage": "https://github.com/mleal94/boxitas-chat#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^3.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
