@@ -395,7 +395,6 @@ io.on('connection', socket => {
       })
       // copyData[userIdx].contents = mappingData
     }
-
     const newData = copyData.filter(v => v.id === user)[0]
     io.sockets.to(socket.id).emit('receive data', newData)
   })
@@ -406,3 +405,5 @@ io.on('connection', socket => {
 })
 
 server.listen(port, () => console.log(`Listening on port ${port}`))
+
+//Enviroment
